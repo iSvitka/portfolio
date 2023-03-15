@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8e0bdacb.css",
+    "main.js": "/portfolio/static/js/main.8cd579e9.js",
+    "static/media/shelter.png": "/portfolio/static/media/shelter.9543c5af8c289b98bcb0.png",
+    "static/media/online-zoo.png": "/portfolio/static/media/online-zoo.4c54253dcbf741e7319f.png",
+    "static/media/online-store.png": "/portfolio/static/media/online-store.41c50b21c22ca743366f.png",
+    "static/media/songbird.png": "/portfolio/static/media/songbird.81f86dd9007fe2cbaaac.png",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.483297cca25c6558bacd.jpg",
+    "static/media/virtual-keyboard.png": "/portfolio/static/media/virtual-keyboard.110c72395acf6df5f6d1.png",
+    "static/media/monkeytype.png": "/portfolio/static/media/monkeytype.b41bb144ec78c759c267.png",
+    "static/media/gem-puzzle.png": "/portfolio/static/media/gem-puzzle.c9e092b72c3b22962bf7.png",
+    "static/media/async-race.png": "/portfolio/static/media/async-race.2bbff074568b3890c17e.png",
+    "index.html": "/portfolio/index.html",
+    "main.8e0bdacb.css.map": "/portfolio/static/css/main.8e0bdacb.css.map",
+    "main.8cd579e9.js.map": "/portfolio/static/js/main.8cd579e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e0bdacb.css",
+    "static/js/main.8cd579e9.js"
+  ]
+}
