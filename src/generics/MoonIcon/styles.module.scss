@@ -1,0 +1,8 @@
+.MoonIcon {
+    height: 25px;
+    width: 25px;
+
+    & > path {
+        fill: var(--themeButtonMoon);
+    }
+}

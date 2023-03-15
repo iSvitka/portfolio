@@ -6,6 +6,10 @@
     transition: 0.25s ease-in-out;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 button {
     border: none;
     cursor: pointer;

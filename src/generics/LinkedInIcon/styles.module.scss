@@ -6,5 +6,6 @@
 }
 
 .stroke {
+    stroke: var(--text);
     transition: 0.25s ease-in-out;
 }

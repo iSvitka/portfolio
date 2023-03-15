@@ -1,0 +1,29 @@
+.ThemeChangeButton {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: var(--themeButtonBackground);
+    filter: drop-shadow(0 0 3px var(--subAlt));
+
+    &:hover {
+        transform: translateX(0);
+        background: var(--subAlt);
+    }
+}
+
+.themeSun, .themeMoon {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+}
+
+.hidden {
+    display: none;
+}
