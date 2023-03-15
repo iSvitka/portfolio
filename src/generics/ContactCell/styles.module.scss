@@ -1,0 +1,42 @@
+.ContactCell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+
+        background: var(--backgroundAlt);
+
+        svg > path{
+            fill: var(--sub);
+            stroke: var(--subAlt);
+        }
+
+        .contactText {
+            color: var(--subAlt);
+        }
+    }
+}
+
+.contact {
+    &Icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    &Text {
+        padding-bottom: 4px;
+        color: var(--text);
+        font-family: var(--font);
+        font-size: 24px;
+        font-weight: 600;
+        transition: 0.25s ease-in-out;
+    }
+}

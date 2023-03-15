@@ -1,0 +1,34 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--backgroundAlt);
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.footer {
+    &Text {
+        font-family: var(--font);
+        font-weight: 600;
+        opacity: 0.5;
+        user-select: none;
+    }
+
+    &Link {
+        color: var(--main);
+        font-family: var(--font);
+        font-weight: 600;
+        opacity: 1;
+        transition: 0.25s ease-in-out;
+
+        &:hover {
+            color: var(--subAlt);
+        }
+
+        &:active {
+            color:  var(--sub);
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.SkillRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.skill {
+    &Name {
+        color: var(--text);
+        font-family: var(--font);
+        font-size: 30px;
+    }
+
+    &Value {
+        &Cont {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        &Filled, &Empty {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+        }
+
+        &Filled {
+            background: var(--main);
+        }
+
+        &Empty {
+            background: var(--text);
+        }
+    }
+}

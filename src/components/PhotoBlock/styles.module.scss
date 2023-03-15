@@ -1,0 +1,13 @@
+.PhotoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.photo {
+    width: 300px;
+}

@@ -1,0 +1,44 @@
+.AboutBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    padding: 25px 10px;
+    background: var(--backgroundAlt);
+    font-family: var(--font);
+}
+
+.about {
+    &Heading {
+        color: var(--main);
+        font-size: 36px;
+        opacity: 0.95;
+    }
+
+    &Text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 600px;
+        color: var(--text);
+        font-size: 24px;
+
+        & p {
+            text-indent: 15px;
+            word-spacing: 6px;
+        }
+
+        & p > span {
+            color: var(--main);
+        }
+
+        &Block {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background: var(--backgroundAlt);
+}
+
+.nav {
+    &Cont {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    &List {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px 25px;
+        justify-content: space-around;
+        width: fit-content;
+    }
+
+    &Item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & > a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            color: var(--text);
+            font-family: var(--font);
+            font-size: 28px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: 0.25s ease-in-out;
+            opacity: 0.85;
+        }
+
+        &:hover > a {
+            color: var(--main);
+            opacity: 1;
+        }
+
+        &:active > a {
+            color: var(--sub)
+        }
+    }
+}

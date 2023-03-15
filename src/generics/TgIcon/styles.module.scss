@@ -1,0 +1,11 @@
+.TgIcon {
+    height: 25px;
+    width: 25px;
+    transition: 0.25s ease-in-out;
+}
+
+.stroke {
+    fill: var(--background);
+    stroke: var(--text);
+    transition: 0.25s ease-in-out;
+}

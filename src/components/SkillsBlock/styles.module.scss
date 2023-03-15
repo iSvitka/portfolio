@@ -1,0 +1,27 @@
+.SkillsBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+.skills {
+    
+    &Heading {
+        color: var(--main);
+        font-family: var(--font);
+        font-size: 36px;
+        opacity: 0.95;
+    }
+    
+    &Cont {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 25px;
+        justify-content: center;
+        width: fit-content;
+    }
+}

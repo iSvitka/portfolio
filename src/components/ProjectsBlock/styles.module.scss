@@ -1,0 +1,28 @@
+.ProjectsBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px 0;
+    background: var(--backgroundAlt);
+}
+
+.projects {
+    
+    &Heading {
+        color: var(--main);
+        font-family: var(--font);
+        font-size: 36px;
+        opacity: 0.9;
+    }
+
+    &Cont {
+        display: grid;
+        align-items: center;
+        gap: 25px;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        width: 1025px;
+    }
+}
