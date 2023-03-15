@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    padding: 50px 0;
+    padding: 50px 10px;
     background: var(--backgroundAlt);
 }
 
@@ -23,6 +23,12 @@
         gap: 25px;
         justify-items: center;
         grid-template-columns: 1fr 1fr;
-        width: 1025px;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+    .projectsCont {
+        grid-template-columns: 1fr;
     }
 }

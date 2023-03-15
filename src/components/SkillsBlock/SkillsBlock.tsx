@@ -9,7 +9,7 @@ export function SkillsBlock() {
                 <SkillCell name='HTML' value={4}/>
                 <SkillCell name='CSS/SASS' value={4}/>
                 <SkillCell name='JS' value={4}/>
-                <SkillCell name='TypeScript' value={4}/>
+                <SkillCell name='TS' value={4}/>
                 <SkillCell name='ReactJS' value={4}/>
                 <SkillCell name='NodeJS' value={3} />
                 <SkillCell name='Git' value={4} />

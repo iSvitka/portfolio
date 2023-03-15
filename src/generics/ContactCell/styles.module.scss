@@ -40,3 +40,9 @@
         transition: 0.25s ease-in-out;
     }
 }
+
+@media (max-width: 375px) {
+    .contactText {
+        font-size: 20px;
+    }
+}
