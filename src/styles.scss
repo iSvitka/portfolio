@@ -24,3 +24,15 @@ ul {
 #root {
     min-height: 100vh;
 }
+
+.disappear {
+    animation: disappearButton 0.25s ease-in-out both;
+}
+
+@keyframes disappearButton {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}

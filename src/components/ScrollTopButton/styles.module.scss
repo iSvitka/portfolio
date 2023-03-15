@@ -1,0 +1,46 @@
+.ScrollTopButton {
+    position: fixed;
+    right: 25px;
+    bottom: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: var(--main);
+    filter: drop-shadow(0 0 3px var(--subAlt));
+    animation: appearButton 0.25s ease-in-out both;
+
+    &::after, &::before {
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-top: 3px solid var(--textAlt);
+        border-left: 3px solid var(--textAlt);
+        border-radius: 5px;
+        transform: rotate(45deg);
+    }
+    &::after {
+        top: 15px;
+        left: 20px;
+    }
+    &::before {
+        bottom: 8px;
+        left: 20px;
+    }
+
+    &:hover {
+        background: var(--subAlt);
+    }
+
+    &:active {
+        background: var(--sub);
+    }
+}
+
+@keyframes appearButton {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
