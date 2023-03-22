@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .Header {
     display: flex;
     align-items: center;
@@ -36,7 +38,7 @@
             justify-content: center;
             padding: 5px;
             color: var(--text);
-            font-family: var(--font);
+            font-family: $fontUbuntu;
             font-size: 28px;
             font-weight: 600;
             text-transform: uppercase;

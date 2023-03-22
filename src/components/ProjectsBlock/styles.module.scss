@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .ProjectsBlock {
     display: flex;
     align-items: center;
@@ -12,7 +14,7 @@
     
     &Heading {
         color: var(--main);
-        font-family: var(--font);
+        font-family: $fontUbuntu;
         font-size: 36px;
         opacity: 0.9;
     }

@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .ContactCell {
     display: flex;
     align-items: center;
@@ -34,7 +36,7 @@
     &Text {
         padding-bottom: 4px;
         color: var(--text);
-        font-family: var(--font);
+        font-family: $fontUbuntu;
         font-size: 24px;
         font-weight: 600;
         transition: 0.25s ease-in-out;

@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .ProjectCell {
     position: relative;
     display: flex;
@@ -55,7 +57,7 @@
         border-radius: 5px;
         background: var(--backgroundAlt);
         color: var(--text);
-        font-family: var(--font);
+        font-family: $fontUbuntu;
         font-size: 20px;
         transition: 0.25s ease-in-out;
     }
@@ -73,7 +75,7 @@
         border-radius: 5px;
         background: rgba($color: #000000, $alpha: 0.8);
         color: var(--subText);
-        font-family: var(--font);
+        font-family: $fontMontserrat;
         text-indent: 10px;
         word-spacing: 6px;
         transform: translateY(-100%);

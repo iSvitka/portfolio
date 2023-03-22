@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .ContactsBlock {
     display: flex;
     align-items: center;
@@ -14,7 +16,7 @@
         max-width: 500px;
         width: 100%;
         color: var(--textAlt);
-        font-family: var(--font);
+        font-family: $fontMontserrat;
         font-size: 30px;
         opacity: 0.9;
 

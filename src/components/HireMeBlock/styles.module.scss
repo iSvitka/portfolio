@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .HireMeBlock {
     display: flex;
     align-items: center;
@@ -29,11 +31,12 @@
             max-width: 400px;
             width: 100%;
             color: var(--text);
-            font-family: var(--font);
+            font-family: $fontMontserrat;
         }
 
         &Heading {
             opacity: 0.95;
+            font-family: $fontUbuntu;
             font-size: 48px;
         }
 
@@ -53,18 +56,36 @@
         border-radius: 5px;
         background: var(--main);
         color: var(--textAlt);
-        font-family: var(--font);
+        font-family: $fontUbuntu;
         font-size: 20px;
         transition: 0.25s ease-in-out;
+        animation: blinking 2s linear infinite both;
 
         &:hover {
             background: var(--backgroundAlt);
             color: var(--main);
+            animation: none;
         }
 
         &:active {
             background: var(--sub);
             color: var(--text);
+            animation: none;
         }
+    }
+}
+
+
+@keyframes blinking {
+    0% {
+        filter:  drop-shadow(0 0 3px var(--main));
+    }
+
+    50% {
+        filter:  drop-shadow(0 0 0 var(--main));
+    }
+
+    100% {
+        filter:  drop-shadow(0 0 3px var(--main));
     }
 }

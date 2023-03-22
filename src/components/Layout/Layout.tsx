@@ -4,7 +4,6 @@ import { Footer } from '../Footer/Footer';
 import { Header } from '../Header/Header';
 import styles from './styles.module.scss';
 import themes from '../../themes.module.scss';
-import fonts from '../../fonts.module.scss';
 import { MainPage } from '../MainPage/MainPage';
 import { ScrollTopButton } from '../ScrollTopButton/ScrollTopButton';
 import { ThemeChangeButton } from '../ThemeChangeButton/ThemeChangeButton';
@@ -34,8 +33,7 @@ export function Layout() {
             className={cn(
                 styles.Layout,
                 !theme && themes.lightTheme,
-                theme && themes.darkTheme,
-                fonts.ubuntuMonoFont
+                theme && themes.darkTheme
             )}
         >
             <Header />
