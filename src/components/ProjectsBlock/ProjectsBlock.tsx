@@ -1,6 +1,6 @@
 import { ProjectCell } from '../../generics/ProjectCell/ProjectCell'
 import styles from './styles.module.scss';
-import monkeytypeImg from '../../assets/images/monkeytype.png';
+import rstypeImg from '../../assets/images/monkeytype.png';
 import onlineStoreImg from '../../assets/images/online-store.png';
 import asyncRaceImg from '../../assets/images/async-race.png';
 import songbirdImg from '../../assets/images/songbird.png';
@@ -15,7 +15,7 @@ export function ProjectsBlock() {
         <section className={styles.ProjectsBlock} id='Projects'>
             <h2 className={styles.projectsHeading}>Projects</h2>
             <div className={styles.projectsCont}>
-                <ProjectCell name='Monkeytype' img={monkeytypeImg} description='Team project, clone of existence open-source project monkeytype. I was developing settings, leaderboard, info and account pages. Also loader, adaptive, themes and more...'/>
+                <ProjectCell name='RStype' img={rstypeImg} description='Team project, clone of existence open-source project monkeytype. I was developing settings, leaderboard, info and account pages. Also loader, adaptive, themes and more...'/>
                 <ProjectCell name='Online-store' img={onlineStoreImg} description='Team project, online store. I was developing main page, pagination on cart page, adaptive and a lot of little sings.'/>
                 <ProjectCell name='Async-race' img={asyncRaceImg} description='Own project, race app. Task was to create race app using ready-made API. App works with local server.'/>
                 <ProjectCell name='Songbird' img={songbirdImg} description='Own project, game quiz. Try to guess the bird by its voice. Project is written on JS.'/>

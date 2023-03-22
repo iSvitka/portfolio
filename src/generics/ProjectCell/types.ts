@@ -4,4 +4,4 @@ export interface ProjectCellProps {
     description: string;
 }
 
-export type ProjectNameType = 'Monkeytype' | 'Online-store' | 'Async-race' | 'Songbird' | 'Gem puzzle' | 'Virtual keyboard' | 'Online-zoo' | 'Shelter'
+export type ProjectNameType = 'RStype' | 'Online-store' | 'Async-race' | 'Songbird' | 'Gem puzzle' | 'Virtual keyboard' | 'Online-zoo' | 'Shelter'

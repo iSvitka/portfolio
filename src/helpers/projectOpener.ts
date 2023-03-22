@@ -2,7 +2,7 @@ import { ProjectNameType } from "../generics/ProjectCell/types";
 
 export const projectOpener = (name: ProjectNameType) => {
     switch(name) {
-        case 'Monkeytype': 
+        case 'RStype': 
             window.open('https://achimenes-freeman.github.io/rs-clone/', '_blank')
             break;
         case 'Online-store': 
