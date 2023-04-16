@@ -3,10 +3,10 @@ import { ProjectNameType } from "../generics/ProjectCell/types";
 export const projectOpener = (name: ProjectNameType) => {
     switch(name) {
         case 'RStype': 
-            window.open('https://achimenes-freeman.github.io/rs-clone/', '_blank')
+            window.open('https://isvitka.github.io/RStype/', '_blank')
             break;
         case 'Online-store': 
-            window.open('https://achimenes-freeman.github.io/Online-store/', '_blank')
+            window.open('https://isvitka.github.io/online-store/', '_blank')
             break;
         case 'Async-race': 
             window.open('https://rolling-scopes-school.github.io/isvitka-JSFE2022Q3/async-race/', '_blank')
